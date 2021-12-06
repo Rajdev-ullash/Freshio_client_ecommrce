@@ -1,5 +1,10 @@
 import React from 'react';
 
+import Banner from '../../../image/banner1.jfif'
+import Banner1 from '../../../image/banner2.jfif'
+import Banner2 from '../../../image/banner3.jfif'
+import Banner3 from '../../../image/banner4.jfif'
+
 const HomeBanner = () => {
     return (
         <div>
@@ -76,6 +81,19 @@ const HomeBanner = () => {
                         </div>
                     </div>
                 </section>
+            </div>
+            <div class="container-fluid mt-5">
+                <div class="row">
+                    <div class="col-md">
+                        <img style={{width:"270px", height:"270px"}} src="http://junko.mallthemes.com/wp-content/uploads/2019/03/home1-banner1-1.jpg" class="sm:ml-11" alt="..." />
+                    </div>
+                    <div class="col-md-6">
+                        <img style={{width:"570px", height:"270px"}} src="http://junko.mallthemes.com/wp-content/uploads/2019/03/home1-banner1-2.jpg" class="sm:ml-16" alt="..." />
+                    </div>
+                    <div class="col-md">
+                        <img style={{width:"270px", height:"270px"}} src="http://junko.mallthemes.com/wp-content/uploads/2019/03/home1-banner1-3.jpg" class="sm:ml-7" alt="..." />
+                    </div>
+                </div>
             </div>
         </div>
     );
