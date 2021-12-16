@@ -101,6 +101,7 @@ const HotDeals = (props) => {
                 deviceType={props.deviceType}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
+                renderDotsOutside={false}
             >
                 {
                     product.map((item) =>
